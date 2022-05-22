@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
-    <link
+    <!-- <link
       rel="preload"
       href="./add.wasm"
       as="fetch"
       type="application/wasm"
       crossorigin
-    />
+    /> -->
 
     <style>
       html,
@@ -30,13 +30,14 @@
         display: grid;
         place-items: center;
         color: white;
+        text-align: center;
         white-space: pre;
       }
     </style>
   </head>
 
   <body>
-    <div id="output">Waiting...</div>
+    <div id="output">Initializing JS...</div>
     <script type="module" src="./loader.js"></script>
   </body>
 </html>
