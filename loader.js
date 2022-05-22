@@ -1,5 +1,4 @@
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
-
 const output = document.querySelector("#output");
 
 await sleep(2000);
