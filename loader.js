@@ -9,4 +9,4 @@ const {
   },
 } = await WebAssembly.instantiateStreaming(fetch("./add.wasm"));
 
-output.textContent = `${add(100, 200)}`;
+output.textContent = `WASM Add Result: ${add(100, 200)}`;
