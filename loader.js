@@ -1,9 +1,6 @@
 const output = document.querySelector("#output");
 output.textContent = `Initializing WASM...`;
 
-// const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
-// await sleep(2000);
-
 const start = performance.now();
 const {
   instance: {
