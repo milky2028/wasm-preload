@@ -3,6 +3,6 @@ clang \
 -nostdlib \
 -Wl,--no-entry \
 -Wl,--export-all \
--03 \
+-O3 \
 -o add.wasm \
 add.c
