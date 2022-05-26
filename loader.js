@@ -15,5 +15,5 @@ const end = performance.now();
 output.textContent = `
 WASM Loaded
 WASM add result: ${add(100, 200)}
-WASM download + parse + compile + execute time: ${(end - start).toFixed(4)}ms
+WASM download + parse + compile time: ${(end - start).toFixed(4)}ms
 `;
